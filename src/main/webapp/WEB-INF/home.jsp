@@ -119,7 +119,7 @@ window.onload = function() {
 			<li class="sub-menu-item"><a target="content" href="/ani/fill">fill</a></li>
 			<li class="sub-menu-item"><a target="content" href="/ani/cross">cross</a></li>
 			<li class="sub-menu-item"><a target="content" href="/ani/race">race</a></li>
-			<li class="sub-menu-item"><a target="content" href="/ani/cube">cube</a></li>
+			<li class="sub-menu-item"><a target="content" href="/cube.jsp">cube</a></li>
 		</ol>
 	</li>
 	<li class="menu-item">
