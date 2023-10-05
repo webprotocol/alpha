@@ -92,13 +92,13 @@ window.onload = function() {
 	<li style="padding: 0px 20px;">
 		<section class="perspective">
 		<article class="cube">
-			<div class="base">Base</div>
-			<div class="base front">Front</div>
-			<div class="base back">Back</div>
-			<div class="base left">Left</div>
-			<div class="base right">Right</div>
-			<div class="base top">Top</div>
-			<div class="base bottom">Bottom</div>
+			<div class="base">Alpha</div>
+			<div class="base front">A</div>
+			<div class="base back">B</div>
+			<div class="base left">C</div>
+			<div class="base right">D</div>
+			<div class="base top">E</div>
+			<div class="base bottom">F</div>
 		</article>
 		</section>
 	</li>
