@@ -6,6 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <title>race.jsp</title>
+<script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
 <style type="text/css">
 #surface {
 	border-collapse: collapse;
@@ -112,8 +113,7 @@ function race(alpha) {
 	}
 }
 
-window.onload = function() {
-	
+$(document).ready(function() {
 	startBtn.onclick = e => {
 		fetch('/alpha/data')
 		.then(response => response.json())
@@ -121,8 +121,8 @@ window.onload = function() {
 			race(alpha);
 		});
 	}
+});
 	
-}
 </script>
 <style type="text/css">
 section > table {
