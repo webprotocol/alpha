@@ -1,6 +1,11 @@
 
-
 .collapse {
 	border-collapse: collapse;
 	font-family: monospace;
+}
+
+#surface td {
+	position: relative;
+	
+	transition: left 3s, top 3s, transform 5s;
 }
