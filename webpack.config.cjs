@@ -3,6 +3,7 @@ module.exports = {
     entry: {
         fill: "./src/fill.jsx",
         sort: "./src/sort.jsx",
+        move: "./src/move.jsx",
      },
     output: {
         filename: "[name].js",
