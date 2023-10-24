@@ -34,6 +34,7 @@ eclipse {
 }
 
 dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.2'
 	compileOnly 'org.projectlombok:lombok'
@@ -59,6 +60,11 @@ dependencies {
     implementation 'org.webjars:webjars-locator-core'
     implementation 'org.webjars:bootstrap:5.2.3'
     implementation 'org.webjars:jquery:3.7.1'
+    
+    /*
+     * Spring Security
+     */
+    implementation group: 'org.springframework.security', name: 'spring-security-taglibs', version: '6.0.3'
     
 }
 
