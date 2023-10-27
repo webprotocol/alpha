@@ -143,6 +143,7 @@ $(document).ready(function() {
 			<li class="sub-menu-item"><a target="content" href="/move.jsp">move</a></li>
 			<li class="sub-menu-item"><a target="content" href="/flow.jsp">flow</a></li>
 			<li class="sub-menu-item"><a target="content" href="/ping.jsp">ping</a></li>
+			<li class="sub-menu-item"><a target="content" href="/rest/dept">dept</a></li>
 		</ol>
 	</li>
 	<li class="menu-item">
