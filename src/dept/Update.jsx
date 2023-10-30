@@ -43,7 +43,11 @@ class Update extends React.Component {
 	}
 	
 	state = {
-		dept: {}
+		dept: {
+			deptno : "",
+			dname: "",
+			loc: ""
+		}
 	}
 	
 	render() {

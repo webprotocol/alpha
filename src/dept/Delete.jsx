@@ -10,7 +10,11 @@ class Delete extends React.Component {
 	}
 	
 	state = {
-		dept: {}
+		dept: {
+			deptno : "",
+			dname: "",
+			loc: ""
+		}
 	}
 	
 	async onSubmit(e) {
