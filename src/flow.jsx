@@ -99,6 +99,10 @@ class App extends React.Component {
 	}
 	
 	render() {
+		setTimeout(() => {
+			console.log($('#surface'))
+			$('#surface').focus();
+		}, 100)
 		return (
 			<>
 			<button onClick={event => this.btnLeft_click(event)}>Left</button>
@@ -114,9 +118,13 @@ class App extends React.Component {
 			</select>
 			<hr/>
 			<table id="surface"
-					className='collapse' 
+					className='collapse'
 					onMouseDown={event => event.preventDefault()}
-					onContextMenu={event => event.preventDefault()}>
+					onContextMenu={event => event.preventDefault()}
+					tabIndex={10}
+					onKeyDown={(event) => console.log(event.key)}
+					onFocus={() => console.log("focus...")}
+					>
 				<tbody>
 				{
 					this.state.surface.map((row, k) => 
